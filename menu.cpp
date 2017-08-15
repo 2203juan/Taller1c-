@@ -7,26 +7,26 @@ int main() {
 	while(1){ //Loop infinito, con el fin de mostrar el menú cada vez que se realice una operacion
 
 
-	//En este fragmento se declaran las variables que contendran los valores como resultado de la funcion
-	int opcion=0, x1, x2, resultado,longArregloEntero = 7;
-	int arregloEntero[] = {5,2,7,3,4,8,1};
-	int arregloOrdenado[longArregloEntero];
-	int longArregloPrincipal =  9, longArregloBuscado = 2;
-	char cadena1[] = "mi cadena", cadenaBuscada[] = "ena";
+		//En este fragmento se declaran las variables que contendran los valores como resultado de la funcion
+		int opcion=0, x1, x2, resultado,longArregloEntero = 7;
+		int arregloEntero[] = {5,2,7,3,4,8,1};
+		int arregloOrdenado[longArregloEntero];
+		int longArregloPrincipal =  9, longArregloBuscado = 2;
+		char cadena1[] = "mi cadena", cadenaBuscada[] = "ena";
 
-	//En este fragmento se imprime el menu, que saldra para elegir la operacion que se quiere realizar.
-	cout<<"MENU, digite la función que deseas utilizar"<<endl;
-	cout<<"1 = Exponenciacion"<<endl;
-	cout<<"2 = Busqueda Secuencial"<<endl;
-	cout<<"3 = Ordenamiento Burbuja"<<endl;
-	cout<<"4 = Ordenamiento Seleccion"<<endl;
-	cout<<"5 = Emparejamiento Cadenas"<<endl;
-	cin>>opcion;//En esta variable se guarda la opcion que se va a realizar
-	cout<<endl;//Se imprime una funcion
+		//En este fragmento se imprime el menu, que saldra para elegir la operacion que se quiere realizar.
+		cout<<"MENU, digite la función que deseas utilizar"<<endl;
+		cout<<"1 = Exponenciacion"<<endl;
+		cout<<"2 = Busqueda Secuencial"<<endl;
+		cout<<"3 = Ordenamiento Burbuja"<<endl;
+		cout<<"4 = Ordenamiento Seleccion"<<endl;
+		cout<<"5 = Emparejamiento Cadenas"<<endl;
+		cin>>opcion;//En esta variable se guarda la opcion que se va a realizar
+		cout<<endl;//Se imprime una funcion
 
-	/*/ 
-	En esta sentencia switch utilizamos los casos para dar opciones al usuario de seleccionar una función
-	de las que hemos creado y este las pueda utilizar a su gusto 
+		/*/ 
+		En esta sentencia switch utilizamos los casos para dar opciones al usuario de seleccionar una función
+		de las que hemos creado y este las pueda utilizar a su gusto 
 
 	/*/
 	while (!(opcion>=1 && opcion<=5)){
@@ -97,3 +97,4 @@ int main() {
 	return 0;
 }
 
+	
