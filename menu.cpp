@@ -16,11 +16,14 @@ int main() {
 
 		//En este fragmento se imprime el menu, que saldra para elegir la operacion que se quiere realizar.
 		cout<<"MENU, digite la función que deseas utilizar"<<endl;
+
+		
 		cout<<"1 = Exponenciacion"<<endl;
 		cout<<"2 = Busqueda Secuencial"<<endl;
 		cout<<"3 = Ordenamiento Burbuja"<<endl;
 		cout<<"4 = Ordenamiento Seleccion"<<endl;
 		cout<<"5 = Emparejamiento Cadenas"<<endl;
+		cout<<"6 = Salir"<<endl;	
 		cin>>opcion;//En esta variable se guarda la opcion que se va a realizar
 		cout<<endl;//Se imprime una funcion
 
@@ -29,11 +32,12 @@ int main() {
 		de las que hemos creado y este las pueda utilizar a su gusto 
 
 	/*/
-	while (!(opcion>=1 && opcion<=5)){
+	while (!(opcion>=1 && opcion<=6)){
 		cout<<"Ingrese un numero valido: ";
 		cin>>opcion;	
 	}
 	switch (opcion){
+	
 		case 1:
 			cout<<"Ingrese la base: ";
 			cin>>x1;
@@ -92,6 +96,8 @@ int main() {
 				cout<<"\n";	
 			}
 			break;
+
+		case 6: return 0;
 	}
 	}	
 	return 0;
